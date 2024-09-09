@@ -15,7 +15,7 @@
     render template: "コントローラー名/アクション名"(別のコントローラーのアクションを再表示する場合)  
     render :アクション名, status: :unprocessable_entity(If文と併用することで処理に問題があった場合の分岐に使用する。)  
     
-##　renderのオプション  
+## renderのオプション  
 .viewで使用できるオプション  
 ⑴collection:  
 ◎用途：部分テンプレートを繰り返し表示させる。eachメソッドと同じような役割。  
