@@ -13,5 +13,5 @@ RSpec.describe テスト対象MVC名称, type: :テスト対象MVC種類 do
   end
 end  
 ```
-##関連ワード
+## 関連ワード  
 ●describe
