@@ -13,8 +13,10 @@
 ⑴「Gemfile」の「group :devekopment, :test do ～ end」内に以下のように追記する。  
   gem "rspec-rails", "~> 4.0.0"  
 ⑵アプリケーションのディレクトリへ移動し、ターミナルで以下のコマンドを順に実行する。  
+  ```ruby
   bundle install  
-  rails g rspec:install  
+  rails g rspec:install
+  ```  
 ⑶アプリケーション内に自動生成された「.rspec」ファイルに以下のように追記する。  
   --format documentation
 
