@@ -37,15 +37,15 @@
 ### describe(ディスクライブ)  
 種別：メソッド
 用途：どの機能に対してのテストを行うかテストコードのグループ分けを行う。  
-      「do~end」内に「describe」を記述することで入れ子にすることが可能。  
-記述例　　
-      ```ruby
-      RSpec.describe テスト対象MVC名称, type: :テスト対象MVC種類 do
-        describe "テスト対象機能名称(一目でわかる名前にする)" do  
-          テストコード  
-        end  
-      end  
-      ```
+      「do~end」内に「describe」を記述することで入れ子にすることが可能。 
+記述例  
+```ruby
+  RSpec.describe テスト対象MVC名称, type: :テスト対象MVC種類 do
+    describe "テスト対象機能名称(一目でわかる名前にする)" do
+      テストコード  
+    end  
+  end
+ ```
 
 ### it(イット)  
 種別：メソッド  
@@ -53,14 +53,14 @@
     　「describe」メソッドに記述した機能においてどのような状況のテストを行うかを明記する。  
       「it」で分けたグループ及び「it」に記述した内容を「example(イグザンプル)」とも呼ぶ。  
 記述例  
-      ```ruby
-      RSpec.describe テスト対象MVC名称, type: :テスト対象MVC種類 do
-        describe "テスト対象機能名称(一目でわかる名前にする)" do  
-          it "テストする状況" do  
-            テストする状況を再現するテストコード  
-          end  
-        end
-      end  
-      ```
+```ruby
+RSpec.describe テスト対象MVC名称, type: :テスト対象MVC種類 do
+  describe "テスト対象機能名称(一目でわかる名前にする)" do  
+    it "テストする状況" do  
+       テストする状況を再現するテストコード  
+    end  
+  end
+end  
+```
 
 ### 
