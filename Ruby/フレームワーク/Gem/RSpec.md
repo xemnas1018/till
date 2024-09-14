@@ -24,9 +24,13 @@
 
 ## テストコード記述方法  
 ⑴ターミナルで以下のコマンドを実行し、テストファイルを生成する。  
-  rails g rspec:テスト対象MVC種類 テスト対象MVC名称  
+  ```bush
+  rails g rspec:テスト対象MVC種類 テスト対象MVC名称
+  ```  
 ⑵「spec」ディレクトリ内の生成された「テスト対象MVC名称_spec.rb」の1行目に以下の記述があるか確認する。  
-  require "rails_helper"  
+  ```ruby
+  require "rails_helper"
+  ```  
 ⑶「テスト対象MVC名称_spec.rb」にテストコードを記述する。  
 
 ## テストコードリスト  
@@ -34,23 +38,29 @@
 種別：メソッド
 用途：どの機能に対してのテストを行うかテストコードのグループ分けを行う。  
       「do~end」内に「describe」を記述することで入れ子にすることが可能。  
-記述例：RSpec.describe テスト対象MVC名称, type: :テスト対象MVC種類 do
-         describe "テスト対象機能名称(一目でわかる名前にする)" do  
-           テストコード  
-         end  
-       end  
+記述例　　
+      ```ruby
+      RSpec.describe テスト対象MVC名称, type: :テスト対象MVC種類 do
+        describe "テスト対象機能名称(一目でわかる名前にする)" do  
+          テストコード  
+        end  
+      end  
+      ```
 
 ### it(イット)  
 種別：メソッド  
 用途：「describe」同様にグループ分けを行うメソッド。  
     　「describe」メソッドに記述した機能においてどのような状況のテストを行うかを明記する。  
       「it」で分けたグループ及び「it」に記述した内容を「example(イグザンプル)」とも呼ぶ。  
-記述例：RSpec.describe テスト対象MVC名称, type: :テスト対象MVC種類 do
-         describe "テスト対象機能名称(一目でわかる名前にする)" do  
-            it "テストする状況" do  
-              テストする状況を再現するテストコード  
-            end  
-          end
-        end  
+記述例  
+      ```ruby
+      RSpec.describe テスト対象MVC名称, type: :テスト対象MVC種類 do
+        describe "テスト対象機能名称(一目でわかる名前にする)" do  
+          it "テストする状況" do  
+            テストする状況を再現するテストコード  
+          end  
+        end
+      end  
+      ```
 
 ### 
