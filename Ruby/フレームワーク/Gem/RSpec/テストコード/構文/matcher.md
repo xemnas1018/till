@@ -10,5 +10,5 @@
 expect(テスト対象の引数).to.macther名(判定材料となる引数)
 ```
 ## 関連ワード  
-●``include``
+●``include``  
 ●``eq``
