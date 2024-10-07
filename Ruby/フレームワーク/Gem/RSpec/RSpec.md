@@ -13,7 +13,9 @@
 
 ## 実装方法  
 ⑴「Gemfile」の「group :devekopment, :test do ～ end」内に以下のように追記する。  
-  gem "rspec-rails", "~> 4.0.0"  
+  ```
+  gem "rspec-rails", "~> 4.0.0"
+  ```  
 ⑵アプリケーションのディレクトリへ移動し、ターミナルで以下のコマンドを順に実行する。  
   ```ruby
   bundle install  
