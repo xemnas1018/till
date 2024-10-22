@@ -66,12 +66,12 @@ end
 >* その場合は以下を参考にして、アプリ内に保存されたダミー画像を使用してテストを実施する。
 >  ```ruby
 >  FactoryBot.define do
-    factory :紐づいたモデル名 do
-      after(:build) do |紐づいたモデル名(小文字)|
-        紐づいたモデル名(小文字).ファイル名(小文字).attach(io: File.open('ダミー画像の保存先パス'), filename: 'ダミー画像ファイル名')
-      end
-    end
-    end  
+>    factory :紐づいたモデル名 do
+>     after(:build) do |紐づいたモデル名(小文字)|
+>        紐づいたモデル名(小文字).ファイル名(小文字).attach(io: File.open('ダミー画像の保存先パス'), filename: 'ダミー画像ファイル名')
+>     end
+>   end
+>  end  
 >  ```
 
 ## 関連ワード  
