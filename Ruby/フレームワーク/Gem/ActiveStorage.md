@@ -68,7 +68,7 @@ end
 >  FactoryBot.define do
 >    factory :紐づいたモデル名 do
 >     after(:build) do |紐づいたモデル名(小文字)|
->        紐づいたモデル名(小文字).ファイル名(小文字).attach(io: File.open('ダミー画像の保存先パス'), filename: 'ダミー画像ファイル名')
+>        紐づいたモデル名(小文字).ファイル名(小文字).attach(io: File.open('ダミー画像の保存先パス'), filename: '拡張子を含むダミー画像ファイル名')
 >     end
 >   end
 >  end  
