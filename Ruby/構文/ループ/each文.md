@@ -29,7 +29,7 @@ end
 
 # each_with_index(要素と保存されているインデックスを取得)
 配列名.each_with_index do |ブロック変数, index|
-  puts "#{index + 1}": #{ブロック変数}"
+  puts "#{index + 1}: #{ブロック変数}"
 end
 
 ```
