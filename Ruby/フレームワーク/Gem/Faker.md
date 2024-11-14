@@ -33,7 +33,7 @@ Fakre::モジュール.対応するメソッド
 |           |full_name ``フルネーム``               |                             
 |           |initials(number: 文字数) ``イニシャル`` |                                                               
 |Address    |city ``都市名``                        |                                 
-|           |srteet_address ``住所``                |                
+|           |street_address ``住所``                |                
 |           |zip_code ``郵便番号``                  |
 |Internet   |email ``メールアドレス``                |                                                           
 |           |url ``URL``                            |                                                               
