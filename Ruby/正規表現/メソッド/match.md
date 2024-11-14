@@ -14,7 +14,7 @@
 ## 雛形   
 ```ruby
 str = "hello, world"
-puts str.mattch(/hello/)[0]
+puts str.match(/hello/)[0]
 #"hello"が出力される
 ```
 ## 関連ワード  
