@@ -15,9 +15,11 @@
 |             |・dotnet new blazor                    |・Webフロントエンドを開発できるフレームワーク。      |
 |             |・dotnet new wpf                       |・Windowsデスクトップアプリケーションを作成する。    |
 |             |・dotnet new winforms                  |・従来のWindowsデスクトップアプリを作成する。        |
+|             |・dotnet new sln -o フォルダ名          |・カレントディレクトリにフォルダ名のファイルを作成する|
 |dotnet build |dotnet build                           |作成したプログラムをコンパイルし、実行可能にする。    |
-|dotnet run   |dotnet run                             |コンパイルせず直接実行する。動作確認が可能。         |  
-
+|dotnet run   |dotnet run                             |コンパイルせず直接実行する。動作確認が可能。         | 
+|dotnet wacth |dotnet wach                            |カレントディレクトリのmvcモデルアプリを起動する      |
+|dotnet sln add|dotnet sln add フォルダ名              |カレントディレクトリのプロジェクトをソリューションに追加|
 >[!NOTE]
 >wpfコマンドとwinformsコマンドで作成されるアプリには以下のような違いがある。  
 >wpfコマンド(WPFアプリ)  
