@@ -18,7 +18,7 @@
 |             |・dotnet new sln -o フォルダ名          |・カレントディレクトリにフォルダ名のファイルを作成する|
 |dotnet build |dotnet build                           |作成したプログラムをコンパイルし、実行可能にする。    |
 |dotnet run   |dotnet run                             |コンパイルせず直接実行する。動作確認が可能。         | 
-|dotnet wacth |dotnet wach                            |カレントディレクトリのmvcモデルアプリを起動する      |
+|dotnet wacth |dotnet wach                            |カレントディレクトリのmvcモデルアプリを起動する。アプリを再起動せずにコードの変更を反映可能|
 |dotnet sln add|dotnet sln add フォルダ名              |カレントディレクトリのプロジェクトをソリューションに追加|
 >[!NOTE]
 >wpfコマンドとwinformsコマンドで作成されるアプリには以下のような違いがある。  
